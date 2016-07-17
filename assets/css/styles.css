@@ -6535,12 +6535,25 @@ input[type="checkbox"],
   height: 100vh;
   min-height: 650px; }
 
+#logo {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  position: relative;
+  bottom: 12px;
+  left: 5px; }
+
+#gbs {
+  position: relative;
+  bottom: 6px;
+  left: 5px; }
+
 #title-body {
   margin-top: 15%;
   text-align: center; }
   #title-body h1, #title-body h3 {
     margin: 0;
-    color: white; }
+    color: #f9f8f6; }
   #title-body h1 {
     font-size: 60px; }
   #title-body h3 {
@@ -6549,7 +6562,7 @@ input[type="checkbox"],
     padding-top: 40px; }
 
 #title-text a {
-  color: white;
+  color: #f9f8f6;
   font-size: 25px;
   font-weight: 100;
   text-align: center;
@@ -6590,7 +6603,7 @@ input[type="checkbox"],
 
 .bounce {
   position: absolute;
-  bottom: 30px;
+  bottom: 10px;
   left: 50%;
   width: 60px;
   height: 60px;
@@ -6647,7 +6660,7 @@ input[type="checkbox"],
   float: left;
   width: 100%;
   padding-top: 1%;
-  min-height: 100vh; }
+  min-height: 1000px; }
 
 #about-me {
   min-width: 50%;
@@ -6694,7 +6707,9 @@ input[type="checkbox"],
 
 /**** Contact Position ****/
 #contact-link {
+  position: relative;
   float: left;
+  text-align: center;
   background-color: #2B252C;
   width: 100%;
   padding-top: 1.5%; }
@@ -6709,10 +6724,10 @@ input[type="checkbox"],
   color: #89778d; }
 
 #contact-icons {
+  display: inline-flex;
   background-color: #332c34;
   border-radius: 50px;
-  padding: 10px;
-  width: 256px;
+  padding: 15px;
   margin: 0 auto;
   margin-top: 3%; }
   #contact-icons a {
@@ -6721,5 +6736,19 @@ input[type="checkbox"],
     transition: 0.5s; }
     #contact-icons a:hover {
       color: #dca500 !important; }
+
+#back-top {
+  position: absolute;
+  right: 35px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, 0.3); }
+  #back-top .fa-chevron-up {
+    font-size: 25px;
+    position: relative;
+    line-height: 32px;
+    right: 3px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -21,9 +21,10 @@ $brand-info:            #9C27B0 !default;
 $brand-warning:         #ff9800 !default;
 $brand-danger:          #e51c23 !default;
 
-$brand-light:              lighten($brand-primary, 8%);
-$brand-accent:            #448aff;
-$brand-dark-bg:            #2B252C;
+$brand-light:             lighten($brand-primary, 8%);
+$brand-accent:          #448aff;
+$brand-dark-bg:         #2B252C;
+$white-light:           hsl(40, 20%, 97%);
 
 //== Scaffolding
 //
