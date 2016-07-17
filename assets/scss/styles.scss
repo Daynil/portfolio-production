@@ -2,6 +2,14 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "bootswatch";
 
+/**** Nav ****/
+@media (min-width: 1400px) {
+  #nav {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
 /**** Home Position ****/
 #home-link {
   width: 100%;
