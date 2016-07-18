@@ -6567,7 +6567,7 @@ input[type="checkbox"],
     line-height: 40px; }
   #title-body .divider {
     height: 3px;
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     margin-top: 40px;
     background-color: #f9f8f6; }
@@ -6635,14 +6635,15 @@ input[type="checkbox"],
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  color: #2B252C; }
+  color: #2B252C;
+  padding-bottom: 50px; }
 
 .portfolio {
   min-height: 100%; }
 
 #glow-link {
   font-size: 36px;
-  margin-top: 8%; }
+  margin-top: 5%; }
 
 #me-link, #me-link:active {
   color: #b38600;
@@ -6659,6 +6660,28 @@ input[type="checkbox"],
 #glow-link:hover > .glow {
   color: #b38600; }
 
+.project-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.card {
+  width: 275px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.29);
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: 0.4s; }
+  .card:hover {
+    box-shadow: 0px 8px 13px 1px rgba(0, 0, 0, 0.29); }
+  .card img {
+    width: 275px;
+    display: block;
+    margin: 0 auto; }
+
 #portfolio-link #subtitle {
   font-size: 20px;
   padding: 20px 0px 20px 0px; }
@@ -6671,7 +6694,8 @@ input[type="checkbox"],
   float: left;
   width: 100%;
   padding-top: 1%;
-  min-height: 1000px; }
+  min-height: 1000px;
+  background-color: #e6e6e6; }
 
 #about-me {
   min-width: 50%;
