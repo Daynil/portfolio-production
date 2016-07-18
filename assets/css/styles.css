@@ -6549,14 +6549,12 @@ input[type="checkbox"],
   bottom: 12px;
   left: 5px; }
 
-#gbs {
-  position: relative;
-  bottom: 6px;
-  left: 5px; }
-
 #title-body {
+  margin: 0 auto;
   margin-top: 15%;
-  text-align: center; }
+  text-align: center;
+  width: 37%;
+  min-width: 350px; }
   #title-body h1, #title-body h3 {
     margin: 0;
     color: #f9f8f6; }
@@ -6565,7 +6563,14 @@ input[type="checkbox"],
   #title-body h3 {
     font-weight: 100;
     font-size: 25px;
-    padding-top: 40px; }
+    padding-top: 40px;
+    line-height: 40px; }
+  #title-body .divider {
+    height: 3px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #f9f8f6; }
 
 #title-text a {
   color: #f9f8f6;
